@@ -1,0 +1,28 @@
+a = [0,1,2]
+b = a 
+print a 
+print b 
+b[0] = "hello"
+print a 
+print b 
+a.append(3)
+print a 
+print b 
+
+a = "can I change"
+b = a 
+print a 
+print b 
+b = "different"
+print a 
+print b 
+
+import copy 
+a = [0,1,2]
+b = copy.deepcopy(a)
+print a 
+print b 
+b[0]= "hello"
+print a
+print b 
+
