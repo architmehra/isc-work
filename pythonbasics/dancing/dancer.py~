@@ -1,4 +1,0 @@
-import sys
-from dance.dancing import boogie 
-moves = sys.argv[1:]
-boogie(moves)
